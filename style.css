@@ -1,0 +1,20 @@
+.success, .error, .remove{
+    color: white;
+    padding: 5px;
+    margin: 10px 0px 15px 0px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+.remove{
+    background: yellow;
+    color: black;
+}
+body{
+    padding-top: 20px;
+}

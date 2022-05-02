@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Booklist Project</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Add New Book</h3>
+        <form id="form-submit">
+            <div>
+                <label for="title">Book Name</label>
+                <input type="text" id="title" placeholder="Enter Book Name" class="u-full-width">
+            </div>
+            <div>
+                <label for="author">Author Name</label>
+                <input type="text" id="author" placeholder="Enter Author Name" class="u-full-width">
+            </div>
+            <div>
+                <label for="isbn">ISBN Number</label>
+                <input type="text" id="isbn" placeholder="Enter ISBN Number" class="u-full-width">
+            </div>
+            <input type="submit" value="submit" class="u-full-width">
+        </form>
+        <h4>Book List</h4>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>#ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
